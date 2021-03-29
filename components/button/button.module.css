@@ -1,0 +1,11 @@
+.title {
+    margin-left: 5px;
+    color: black;
+    font-weight: bold;
+}
+
+.buttonContainer {
+    padding: 8px;
+    width: fit-content;
+    max-width: 300px;
+}
