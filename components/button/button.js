@@ -10,12 +10,12 @@ const  Button = (props) => {
         } else if (type == TYPE_ERROR) {
             return '/ic_no.svg'
         } else {
-            return '/ic_adjunto.svg'
+            return '/ic_attached.svg'
         }
     }
 
     return (
-        <div className={`flex items-center rounded-lg shadow-md ${styles.buttonContainer} ${props.style}`}>
+        <div onClick={props.onClick} className={`flex items-center rounded-lg shadow-md ${styles.buttonContainer} ${props.style}`}>
             <Image src={getImageByType(props.type)} height={30} width={30}/>
             <h2 className={styles.title}>{props.title}</h2>
         </div>

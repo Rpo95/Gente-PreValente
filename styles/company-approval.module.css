@@ -1,3 +1,45 @@
+.container {
+    background: #e6e7ec;
+    height: 100%;
+}
+
+.parentContainer {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 30px;
+}
+
+.titleContainer {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+.footerContainer {
+    margin-top: 25px;
+}
+
+.footerTitle {
+    color: #9c9b9b;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.titleLink {
+    color: #6fd4e9;
+}
+
+.paddingButton {
+    margin-bottom: 30px;
+}
+
+.formContainer {
+    background: white;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
 .buttonReject {
     margin-top: 10px;
 }

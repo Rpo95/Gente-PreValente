@@ -1,0 +1,21 @@
+.titleContainer {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.iconContainer {
+    cursor: pointer;
+}
+
+.documentStyle {
+    margin-right: 40px;
+    display: flex;
+    flex: 1;
+}
+
+.textContainer {
+    width: 250px;
+    padding: 15px;
+    cursor: pointer;
+    margin-top: 8px;
+}

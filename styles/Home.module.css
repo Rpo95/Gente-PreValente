@@ -6,8 +6,19 @@
 .cardsContainer {
     padding-left: 100px;
     padding-right: 100px;
+    height: calc(100% - 70px);
 }
-
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.link{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
 .cardsParent {
     height: calc(100% - 70px);
     width: 100%;
