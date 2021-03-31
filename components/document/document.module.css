@@ -1,6 +1,8 @@
 .titleContainer {
-    font-size: 35px;
+    font-size: 30px;
     font-weight: bold;
+    margin-left: 35px;
+    margin-right: 35px;
 }
 
 .iconContainer {
